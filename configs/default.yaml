@@ -1,0 +1,7 @@
+dataset_root: "data/mvtec_ad"
+category: "bottle"
+image_size: 224
+sample_ratio: 0.01
+random_seed: 42
+device: "cpu"
+threshold: null

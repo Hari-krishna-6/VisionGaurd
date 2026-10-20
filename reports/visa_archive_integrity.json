@@ -1,0 +1,11 @@
+{
+  "archive": "G:\\Projects\\VisionGaurd\\data\\downloads\\VisA_20220922.tar",
+  "archive_size_bytes": 1929840640,
+  "archive_sha256": "2eb8690c803ab37de0324772964100169ec8ba1fa3f7e94291c9ca673f40f362",
+  "archive_member_count": 12122,
+  "extracted_file_count": 12037,
+  "extracted_bytes": 1920559633,
+  "extracted_root": "G:\\Projects\\VisionGaurd\\data\\visa_raw",
+  "raw_dataset_root": "G:\\Projects\\VisionGaurd\\data\\visa_raw",
+  "existing_extraction_verified": true
+}

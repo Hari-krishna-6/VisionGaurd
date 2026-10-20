@@ -1,0 +1,1597 @@
+{
+  "collected_at_utc": "2026-10-20T11:49:54.572780+00:00",
+  "workspace": "G:\\Projects\\VisionGaurd",
+  "operating_system": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.13",
+  "cpu": {
+    "model": "Intel(R) Core(TM) Ultra 7 270K Plus",
+    "cores": 24,
+    "logical_processors": 24
+  },
+  "memory_bytes": {
+    "total": 33693589504,
+    "available": 16654528512
+  },
+  "workspace_drive_bytes": {
+    "total": 333401026560,
+    "used": 212235890688,
+    "free": 121165135872
+  },
+  "torch": "2.5.1+cpu",
+  "torchvision": "0.20.1+cpu",
+  "cuda_available": false,
+  "cuda_device": null,
+  "dependencies": {
+    "numpy": "1.26.4",
+    "Pillow": "10.4.0",
+    "opencv-python": "4.10.0.84",
+    "scikit-learn": "1.5.2",
+    "fastapi": "0.115.14",
+    "uvicorn": "0.34.0",
+    "mlflow": "2.15.1",
+    "pytest": "8.4.2",
+    "requests": "2.32.2"
+  },
+  "docker": {
+    "client_found": true,
+    "client_version": "Docker version 29.8.1, build 4a63305",
+    "engine_available": true,
+    "server_version": "29.8.1",
+    "error": null
+  },
+  "docker_image": {
+    "id": "sha256:243310d44bc649ebb753a8c63a20ab1c3618e3ae7998652418be0d15d9763439",
+    "size_bytes": 3028461877
+  },
+  "docker_container": {
+    "state": "running",
+    "health": "healthy"
+  },
+  "mlflow_tracking_uri": "file:///G:/Projects/VisionGaurd/mlruns",
+  "mlflow_experiment": "visionguard-visa",
+  "mlflow_runs": [
+    {
+      "run_id": "42b09abf772a4c14bd3b9c38389c1b68",
+      "name": "phase3-localization-benchmark-nearest-macaroni2",
+      "status": "FINISHED",
+      "category": "macaroni2",
+      "dataset_type": "VisA",
+      "sample_ratio": "0.001",
+      "metric_keys": [
+        "backbone_feature_extraction_mean_ms",
+        "backbone_feature_extraction_median_ms",
+        "backbone_feature_extraction_p90_ms",
+        "backbone_feature_extraction_p95_ms",
+        "cpu_peak_working_set_bytes",
+        "end_to_end_prediction_mean_ms",
+        "end_to_end_prediction_median_ms",
+        "end_to_end_prediction_p90_ms",
+        "end_to_end_prediction_p95_ms",
+        "heatmap_rendering_mean_ms",
+        "heatmap_rendering_median_ms",
+        "heatmap_rendering_p90_ms",
+        "heatmap_rendering_p95_ms",
+        "map_upsampling_mean_ms",
+        "map_upsampling_median_ms",
+        "map_upsampling_p90_ms",
+        "map_upsampling_p95_ms",
+        "model_load_seconds",
+        "nearest_neighbor_search_mean_ms",
+        "nearest_neighbor_search_median_ms",
+        "nearest_neighbor_search_p90_ms",
+        "nearest_neighbor_search_p95_ms",
+        "preprocessing_mean_ms",
+        "preprocessing_median_ms",
+        "preprocessing_p90_ms",
+        "preprocessing_p95_ms",
+        "throughput_images_per_second"
+      ],
+      "artifact_paths": [
+        "nearest.json"
+      ]
+    },
+    {
+      "run_id": "afb3dcca58db45d08fc886f3048149e1",
+      "name": "phase3-localization-benchmark-bilinear-macaroni2",
+      "status": "FINISHED",
+      "category": "macaroni2",
+      "dataset_type": "VisA",
+      "sample_ratio": "0.001",
+      "metric_keys": [
+        "backbone_feature_extraction_mean_ms",
+        "backbone_feature_extraction_median_ms",
+        "backbone_feature_extraction_p90_ms",
+        "backbone_feature_extraction_p95_ms",
+        "cpu_peak_working_set_bytes",
+        "end_to_end_prediction_mean_ms",
+        "end_to_end_prediction_median_ms",
+        "end_to_end_prediction_p90_ms",
+        "end_to_end_prediction_p95_ms",
+        "heatmap_rendering_mean_ms",
+        "heatmap_rendering_median_ms",
+        "heatmap_rendering_p90_ms",
+        "heatmap_rendering_p95_ms",
+        "map_upsampling_mean_ms",
+        "map_upsampling_median_ms",
+        "map_upsampling_p90_ms",
+        "map_upsampling_p95_ms",
+        "model_load_seconds",
+        "nearest_neighbor_search_mean_ms",
+        "nearest_neighbor_search_median_ms",
+        "nearest_neighbor_search_p90_ms",
+        "nearest_neighbor_search_p95_ms",
+        "preprocessing_mean_ms",
+        "preprocessing_median_ms",
+        "preprocessing_p90_ms",
+        "preprocessing_p95_ms",
+        "throughput_images_per_second"
+      ],
+      "artifact_paths": [
+        "bilinear.json"
+      ]
+    },
+    {
+      "run_id": "77752b63b2ff464f9f79828b2ca07189",
+      "name": "phase3-localization-nearest-macaroni2",
+      "status": "FINISHED",
+      "category": "macaroni2",
+      "dataset_type": "VisA",
+      "sample_ratio": null,
+      "metric_keys": [
+        "calibration_seconds",
+        "evaluation_seconds",
+        "feature_dimensions",
+        "image_auroc",
+        "image_average_precision",
+        "image_f1",
+        "image_false_negative_rate",
+        "image_false_positive_rate",
+        "image_precision",
+        "image_recall",
+        "image_threshold",
+        "inference_sample_count",
+        "inference_seconds_per_image",
+        "memory_bank_bytes",
+        "missing_mask_count",
+        "model_artifact_bytes",
+        "pixel_auroc",
+        "pixel_average_precision",
+        "pixel_f1",
+        "pixel_false_negative_rate",
+        "pixel_false_positive_rate",
+        "pixel_precision",
+        "pixel_recall",
+        "pixel_threshold",
+        "pixel_threshold_quantile",
+        "random_seed",
+        "test_image_count"
+      ],
+      "artifact_paths": [
+        "baseline",
+        "evaluation.json",
+        "experiment_config.json",
+        "model.npz",
+        "nearest"
+      ]
+    },
+    {
+      "run_id": "32fc0d0138134ede9f288e81d3b1527c",
+      "name": "phase3-localization-benchmark-nearest-macaroni1",
+      "status": "FINISHED",
+      "category": "macaroni1",
+      "dataset_type": "VisA",
+      "sample_ratio": "0.001",
+      "metric_keys": [
+        "backbone_feature_extraction_mean_ms",
+        "backbone_feature_extraction_median_ms",
+        "backbone_feature_extraction_p90_ms",
+        "backbone_feature_extraction_p95_ms",
+        "cpu_peak_working_set_bytes",
+        "end_to_end_prediction_mean_ms",
+        "end_to_end_prediction_median_ms",
+        "end_to_end_prediction_p90_ms",
+        "end_to_end_prediction_p95_ms",
+        "heatmap_rendering_mean_ms",
+        "heatmap_rendering_median_ms",
+        "heatmap_rendering_p90_ms",
+        "heatmap_rendering_p95_ms",
+        "map_upsampling_mean_ms",
+        "map_upsampling_median_ms",
+        "map_upsampling_p90_ms",
+        "map_upsampling_p95_ms",
+        "model_load_seconds",
+        "nearest_neighbor_search_mean_ms",
+        "nearest_neighbor_search_median_ms",
+        "nearest_neighbor_search_p90_ms",
+        "nearest_neighbor_search_p95_ms",
+        "preprocessing_mean_ms",
+        "preprocessing_median_ms",
+        "preprocessing_p90_ms",
+        "preprocessing_p95_ms",
+        "throughput_images_per_second"
+      ],
+      "artifact_paths": [
+        "nearest.json"
+      ]
+    },
+    {
+      "run_id": "88c5c1cc6e8c4a218fdc65c2434841dd",
+      "name": "phase3-localization-benchmark-bilinear-macaroni1",
+      "status": "FINISHED",
+      "category": "macaroni1",
+      "dataset_type": "VisA",
+      "sample_ratio": "0.001",
+      "metric_keys": [
+        "backbone_feature_extraction_mean_ms",
+        "backbone_feature_extraction_median_ms",
+        "backbone_feature_extraction_p90_ms",
+        "backbone_feature_extraction_p95_ms",
+        "cpu_peak_working_set_bytes",
+        "end_to_end_prediction_mean_ms",
+        "end_to_end_prediction_median_ms",
+        "end_to_end_prediction_p90_ms",
+        "end_to_end_prediction_p95_ms",
+        "heatmap_rendering_mean_ms",
+        "heatmap_rendering_median_ms",
+        "heatmap_rendering_p90_ms",
+        "heatmap_rendering_p95_ms",
+        "map_upsampling_mean_ms",
+        "map_upsampling_median_ms",
+        "map_upsampling_p90_ms",
+        "map_upsampling_p95_ms",
+        "model_load_seconds",
+        "nearest_neighbor_search_mean_ms",
+        "nearest_neighbor_search_median_ms",
+        "nearest_neighbor_search_p90_ms",
+        "nearest_neighbor_search_p95_ms",
+        "preprocessing_mean_ms",
+        "preprocessing_median_ms",
+        "preprocessing_p90_ms",
+        "preprocessing_p95_ms",
+        "throughput_images_per_second"
+      ],
+      "artifact_paths": [
+        "bilinear.json"
+      ]
+    },
+    {
+      "run_id": "435673ae7f244964bf41bf07c09f4cd2",
+      "name": "phase3-localization-nearest-macaroni1",
+      "status": "FINISHED",
+      "category": "macaroni1",
+      "dataset_type": "VisA",
+      "sample_ratio": null,
+      "metric_keys": [
+        "calibration_seconds",
+        "evaluation_seconds",
+        "feature_dimensions",
+        "image_auroc",
+        "image_average_precision",
+        "image_f1",
+        "image_false_negative_rate",
+        "image_false_positive_rate",
+        "image_precision",
+        "image_recall",
+        "image_threshold",
+        "inference_sample_count",
+        "inference_seconds_per_image",
+        "memory_bank_bytes",
+        "missing_mask_count",
+        "model_artifact_bytes",
+        "pixel_auroc",
+        "pixel_average_precision",
+        "pixel_f1",
+        "pixel_false_negative_rate",
+        "pixel_false_positive_rate",
+        "pixel_precision",
+        "pixel_recall",
+        "pixel_threshold",
+        "pixel_threshold_quantile",
+        "random_seed",
+        "test_image_count"
+      ],
+      "artifact_paths": [
+        "baseline",
+        "evaluation.json",
+        "experiment_config.json",
+        "model.npz",
+        "nearest"
+      ]
+    },
+    {
+      "run_id": "c34984a3b47748f3b1a5457854ea6873",
+      "name": "phase3-localization-benchmark-nearest-candle",
+      "status": "FINISHED",
+      "category": "candle",
+      "dataset_type": "VisA",
+      "sample_ratio": "0.001",
+      "metric_keys": [
+        "backbone_feature_extraction_mean_ms",
+        "backbone_feature_extraction_median_ms",
+        "backbone_feature_extraction_p90_ms",
+        "backbone_feature_extraction_p95_ms",
+        "cpu_peak_working_set_bytes",
+        "end_to_end_prediction_mean_ms",
+        "end_to_end_prediction_median_ms",
+        "end_to_end_prediction_p90_ms",
+        "end_to_end_prediction_p95_ms",
+        "heatmap_rendering_mean_ms",
+        "heatmap_rendering_median_ms",
+        "heatmap_rendering_p90_ms",
+        "heatmap_rendering_p95_ms",
+        "map_upsampling_mean_ms",
+        "map_upsampling_median_ms",
+        "map_upsampling_p90_ms",
+        "map_upsampling_p95_ms",
+        "model_load_seconds",
+        "nearest_neighbor_search_mean_ms",
+        "nearest_neighbor_search_median_ms",
+        "nearest_neighbor_search_p90_ms",
+        "nearest_neighbor_search_p95_ms",
+        "preprocessing_mean_ms",
+        "preprocessing_median_ms",
+        "preprocessing_p90_ms",
+        "preprocessing_p95_ms",
+        "throughput_images_per_second"
+      ],
+      "artifact_paths": [
+        "nearest.json"
+      ]
+    },
+    {
+      "run_id": "b6a904644c3c4a2fa0ae4408041278e8",
+      "name": "phase3-localization-benchmark-bilinear-candle",
+      "status": "FINISHED",
+      "category": "candle",
+      "dataset_type": "VisA",
+      "sample_ratio": "0.001",
+      "metric_keys": [
+        "backbone_feature_extraction_mean_ms",
+        "backbone_feature_extraction_median_ms",
+        "backbone_feature_extraction_p90_ms",
+        "backbone_feature_extraction_p95_ms",
+        "cpu_peak_working_set_bytes",
+        "end_to_end_prediction_mean_ms",
+        "end_to_end_prediction_median_ms",
+        "end_to_end_prediction_p90_ms",
+        "end_to_end_prediction_p95_ms",
+        "heatmap_rendering_mean_ms",
+        "heatmap_rendering_median_ms",
+        "heatmap_rendering_p90_ms",
+        "heatmap_rendering_p95_ms",
+        "map_upsampling_mean_ms",
+        "map_upsampling_median_ms",
+        "map_upsampling_p90_ms",
+        "map_upsampling_p95_ms",
+        "model_load_seconds",
+        "nearest_neighbor_search_mean_ms",
+        "nearest_neighbor_search_median_ms",
+        "nearest_neighbor_search_p90_ms",
+        "nearest_neighbor_search_p95_ms",
+        "preprocessing_mean_ms",
+        "preprocessing_median_ms",
+        "preprocessing_p90_ms",
+        "preprocessing_p95_ms",
+        "throughput_images_per_second"
+      ],
+      "artifact_paths": [
+        "bilinear.json"
+      ]
+    },
+    {
+      "run_id": "ebcbcd5929b0479a931eda888bb5b4b7",
+      "name": "phase3-localization-nearest-candle",
+      "status": "FINISHED",
+      "category": "candle",
+      "dataset_type": "VisA",
+      "sample_ratio": null,
+      "metric_keys": [
+        "calibration_seconds",
+        "evaluation_seconds",
+        "feature_dimensions",
+        "image_auroc",
+        "image_average_precision",
+        "image_f1",
+        "image_false_negative_rate",
+        "image_false_positive_rate",
+        "image_precision",
+        "image_recall",
+        "image_threshold",
+        "inference_sample_count",
+        "inference_seconds_per_image",
+        "memory_bank_bytes",
+        "missing_mask_count",
+        "model_artifact_bytes",
+        "pixel_auroc",
+        "pixel_average_precision",
+        "pixel_f1",
+        "pixel_false_negative_rate",
+        "pixel_false_positive_rate",
+        "pixel_precision",
+        "pixel_recall",
+        "pixel_threshold",
+        "pixel_threshold_quantile",
+        "random_seed",
+        "test_image_count"
+      ],
+      "artifact_paths": [
+        "baseline",
+        "evaluation.json",
+        "experiment_config.json",
+        "model.npz",
+        "nearest"
+      ]
+    },
+    {
+      "run_id": "ec851a3943ab4e9bb664ce781cc47a82",
+      "name": "candle-benchmark-topk_mean-1pct",
+      "status": "FINISHED",
+      "category": "candle",
+      "dataset_type": "VisA",
+      "sample_ratio": "0.001",
+      "metric_keys": [
+        "backbone_feature_extraction_mean_ms",
+        "backbone_feature_extraction_median_ms",
+        "backbone_feature_extraction_p90_ms",
+        "backbone_feature_extraction_p95_ms",
+        "cpu_peak_working_set_bytes",
+        "end_to_end_prediction_mean_ms",
+        "end_to_end_prediction_median_ms",
+        "end_to_end_prediction_p90_ms",
+        "end_to_end_prediction_p95_ms",
+        "heatmap_rendering_mean_ms",
+        "heatmap_rendering_median_ms",
+        "heatmap_rendering_p90_ms",
+        "heatmap_rendering_p95_ms",
+        "map_upsampling_mean_ms",
+        "map_upsampling_median_ms",
+        "map_upsampling_p90_ms",
+        "map_upsampling_p95_ms",
+        "model_load_seconds",
+        "nearest_neighbor_search_mean_ms",
+        "nearest_neighbor_search_median_ms",
+        "nearest_neighbor_search_p90_ms",
+        "nearest_neighbor_search_p95_ms",
+        "preprocessing_mean_ms",
+        "preprocessing_median_ms",
+        "preprocessing_p90_ms",
+        "preprocessing_p95_ms",
+        "throughput_images_per_second"
+      ],
+      "artifact_paths": [
+        "benchmark_results.json"
+      ]
+    },
+    {
+      "run_id": "853d19cd3639418183e0fa58aa852b9a",
+      "name": "phase2-baseline-max-candle",
+      "status": "FINISHED",
+      "category": "candle",
+      "dataset_type": "VisA",
+      "sample_ratio": "0.001",
+      "metric_keys": [
+        "backbone_feature_extraction_mean_ms",
+        "backbone_feature_extraction_median_ms",
+        "backbone_feature_extraction_p90_ms",
+        "backbone_feature_extraction_p95_ms",
+        "cpu_peak_working_set_bytes",
+        "end_to_end_prediction_mean_ms",
+        "end_to_end_prediction_median_ms",
+        "end_to_end_prediction_p90_ms",
+        "end_to_end_prediction_p95_ms",
+        "heatmap_rendering_mean_ms",
+        "heatmap_rendering_median_ms",
+        "heatmap_rendering_p90_ms",
+        "heatmap_rendering_p95_ms",
+        "map_upsampling_mean_ms",
+        "map_upsampling_median_ms",
+        "map_upsampling_p90_ms",
+        "map_upsampling_p95_ms",
+        "model_load_seconds",
+        "nearest_neighbor_search_mean_ms",
+        "nearest_neighbor_search_median_ms",
+        "nearest_neighbor_search_p90_ms",
+        "nearest_neighbor_search_p95_ms",
+        "preprocessing_mean_ms",
+        "preprocessing_median_ms",
+        "preprocessing_p90_ms",
+        "preprocessing_p95_ms",
+        "throughput_images_per_second"
+      ],
+      "artifact_paths": [
+        "phase2_baseline_benchmark.json"
+      ]
+    },
+    {
+      "run_id": "7cb8ba1178a94f179e4ac4e6ee180155",
+      "name": "phase2-patchcore_topk_mean_1pct_v1-macaroni2",
+      "status": "FINISHED",
+      "category": "macaroni2",
+      "dataset_type": "VisA",
+      "sample_ratio": "0.001",
+      "metric_keys": [
+        "calibration_seconds",
+        "evaluation_seconds",
+        "image_auroc",
+        "image_average_precision",
+        "image_f1",
+        "image_false_negative_rate",
+        "image_false_positive_rate",
+        "image_precision",
+        "image_recall",
+        "image_threshold",
+        "inference_sample_count",
+        "inference_seconds_per_image",
+        "missing_mask_count",
+        "pixel_auroc",
+        "pixel_average_precision",
+        "pixel_f1",
+        "pixel_false_negative_rate",
+        "pixel_false_positive_rate",
+        "pixel_precision",
+        "pixel_recall",
+        "pixel_threshold",
+        "test_image_count"
+      ],
+      "artifact_paths": [
+        "evaluation.json",
+        "experiment_config.json",
+        "false_negative",
+        "false_positive",
+        "model.npz",
+        "true_positive"
+      ]
+    },
+    {
+      "run_id": "1483f37abdb040bfa6993c9e68515f6a",
+      "name": "phase2-patchcore_topk_mean_1pct_v1-macaroni1",
+      "status": "FINISHED",
+      "category": "macaroni1",
+      "dataset_type": "VisA",
+      "sample_ratio": "0.001",
+      "metric_keys": [
+        "calibration_seconds",
+        "evaluation_seconds",
+        "image_auroc",
+        "image_average_precision",
+        "image_f1",
+        "image_false_negative_rate",
+        "image_false_positive_rate",
+        "image_precision",
+        "image_recall",
+        "image_threshold",
+        "inference_sample_count",
+        "inference_seconds_per_image",
+        "missing_mask_count",
+        "pixel_auroc",
+        "pixel_average_precision",
+        "pixel_f1",
+        "pixel_false_negative_rate",
+        "pixel_false_positive_rate",
+        "pixel_precision",
+        "pixel_recall",
+        "pixel_threshold",
+        "test_image_count"
+      ],
+      "artifact_paths": [
+        "evaluation.json",
+        "experiment_config.json",
+        "false_negative",
+        "false_positive",
+        "model.npz",
+        "true_positive"
+      ]
+    },
+    {
+      "run_id": "4521a94dcaba40089c3d169ae252f19f",
+      "name": "phase2-patchcore_topk_mean_1pct_v1-candle",
+      "status": "FINISHED",
+      "category": "candle",
+      "dataset_type": "VisA",
+      "sample_ratio": "0.001",
+      "metric_keys": [
+        "calibration_seconds",
+        "evaluation_seconds",
+        "image_auroc",
+        "image_average_precision",
+        "image_f1",
+        "image_false_negative_rate",
+        "image_false_positive_rate",
+        "image_precision",
+        "image_recall",
+        "image_threshold",
+        "inference_sample_count",
+        "inference_seconds_per_image",
+        "missing_mask_count",
+        "pixel_auroc",
+        "pixel_average_precision",
+        "pixel_f1",
+        "pixel_false_negative_rate",
+        "pixel_false_positive_rate",
+        "pixel_precision",
+        "pixel_recall",
+        "pixel_threshold",
+        "test_image_count"
+      ],
+      "artifact_paths": [
+        "evaluation.json",
+        "experiment_config.json",
+        "false_negative",
+        "model.npz",
+        "true_positive"
+      ]
+    },
+    {
+      "run_id": "5449ed9fcaac4c0bb1707ec64259a557",
+      "name": "pipe_fryum-evaluation",
+      "status": "FINISHED",
+      "category": "pipe_fryum",
+      "dataset_type": "VisA",
+      "sample_ratio": "0.001",
+      "metric_keys": [
+        "evaluation_seconds",
+        "image_auroc",
+        "image_average_precision",
+        "image_f1",
+        "image_false_negative_rate",
+        "image_false_positive_rate",
+        "image_precision",
+        "image_recall",
+        "image_threshold",
+        "inference_sample_count",
+        "inference_seconds_per_image",
+        "missing_mask_count",
+        "pixel_auroc",
+        "pixel_average_precision",
+        "pixel_f1",
+        "pixel_false_negative_rate",
+        "pixel_false_positive_rate",
+        "pixel_precision",
+        "pixel_recall",
+        "pixel_threshold",
+        "test_image_count"
+      ],
+      "artifact_paths": [
+        "evaluation.json",
+        "model.npz"
+      ]
+    },
+    {
+      "run_id": "3765ae9bc9c44bc4909cee420356b5db",
+      "name": "pcb4-evaluation",
+      "status": "FINISHED",
+      "category": "pcb4",
+      "dataset_type": "VisA",
+      "sample_ratio": "0.001",
+      "metric_keys": [
+        "evaluation_seconds",
+        "image_auroc",
+        "image_average_precision",
+        "image_f1",
+        "image_false_negative_rate",
+        "image_false_positive_rate",
+        "image_precision",
+        "image_recall",
+        "image_threshold",
+        "inference_sample_count",
+        "inference_seconds_per_image",
+        "missing_mask_count",
+        "pixel_auroc",
+        "pixel_average_precision",
+        "pixel_f1",
+        "pixel_false_negative_rate",
+        "pixel_false_positive_rate",
+        "pixel_precision",
+        "pixel_recall",
+        "pixel_threshold",
+        "test_image_count"
+      ],
+      "artifact_paths": [
+        "evaluation.json",
+        "model.npz"
+      ]
+    },
+    {
+      "run_id": "e77e2349b2bb4192a42f29fbba91dec4",
+      "name": "pcb3-evaluation",
+      "status": "FINISHED",
+      "category": "pcb3",
+      "dataset_type": "VisA",
+      "sample_ratio": "0.001",
+      "metric_keys": [
+        "evaluation_seconds",
+        "image_auroc",
+        "image_average_precision",
+        "image_f1",
+        "image_false_negative_rate",
+        "image_false_positive_rate",
+        "image_precision",
+        "image_recall",
+        "image_threshold",
+        "inference_sample_count",
+        "inference_seconds_per_image",
+        "missing_mask_count",
+        "pixel_auroc",
+        "pixel_average_precision",
+        "pixel_f1",
+        "pixel_false_negative_rate",
+        "pixel_false_positive_rate",
+        "pixel_precision",
+        "pixel_recall",
+        "pixel_threshold",
+        "test_image_count"
+      ],
+      "artifact_paths": [
+        "evaluation.json",
+        "model.npz"
+      ]
+    },
+    {
+      "run_id": "1a000ad5693c4fdbb0ceaf838c3ca014",
+      "name": "pcb2-evaluation",
+      "status": "FINISHED",
+      "category": "pcb2",
+      "dataset_type": "VisA",
+      "sample_ratio": "0.001",
+      "metric_keys": [
+        "evaluation_seconds",
+        "image_auroc",
+        "image_average_precision",
+        "image_f1",
+        "image_false_negative_rate",
+        "image_false_positive_rate",
+        "image_precision",
+        "image_recall",
+        "image_threshold",
+        "inference_sample_count",
+        "inference_seconds_per_image",
+        "missing_mask_count",
+        "pixel_auroc",
+        "pixel_average_precision",
+        "pixel_f1",
+        "pixel_false_negative_rate",
+        "pixel_false_positive_rate",
+        "pixel_precision",
+        "pixel_recall",
+        "pixel_threshold",
+        "test_image_count"
+      ],
+      "artifact_paths": [
+        "evaluation.json",
+        "model.npz"
+      ]
+    },
+    {
+      "run_id": "2b58cb84537a4500bdf4758871a31cf5",
+      "name": "pcb1-evaluation",
+      "status": "FINISHED",
+      "category": "pcb1",
+      "dataset_type": "VisA",
+      "sample_ratio": "0.001",
+      "metric_keys": [
+        "evaluation_seconds",
+        "image_auroc",
+        "image_average_precision",
+        "image_f1",
+        "image_false_negative_rate",
+        "image_false_positive_rate",
+        "image_precision",
+        "image_recall",
+        "image_threshold",
+        "inference_sample_count",
+        "inference_seconds_per_image",
+        "missing_mask_count",
+        "pixel_auroc",
+        "pixel_average_precision",
+        "pixel_f1",
+        "pixel_false_negative_rate",
+        "pixel_false_positive_rate",
+        "pixel_precision",
+        "pixel_recall",
+        "pixel_threshold",
+        "test_image_count"
+      ],
+      "artifact_paths": [
+        "evaluation.json",
+        "model.npz"
+      ]
+    },
+    {
+      "run_id": "fe0adc85ffc54dfd92c1a556f8338a9b",
+      "name": "macaroni2-evaluation",
+      "status": "FINISHED",
+      "category": "macaroni2",
+      "dataset_type": "VisA",
+      "sample_ratio": "0.001",
+      "metric_keys": [
+        "evaluation_seconds",
+        "image_auroc",
+        "image_average_precision",
+        "image_f1",
+        "image_false_negative_rate",
+        "image_false_positive_rate",
+        "image_precision",
+        "image_recall",
+        "image_threshold",
+        "inference_sample_count",
+        "inference_seconds_per_image",
+        "missing_mask_count",
+        "pixel_auroc",
+        "pixel_average_precision",
+        "pixel_f1",
+        "pixel_false_negative_rate",
+        "pixel_false_positive_rate",
+        "pixel_precision",
+        "pixel_recall",
+        "pixel_threshold",
+        "test_image_count"
+      ],
+      "artifact_paths": [
+        "evaluation.json",
+        "model.npz"
+      ]
+    },
+    {
+      "run_id": "ae45abde227f4d199ced9d965fafa7fa",
+      "name": "macaroni1-evaluation",
+      "status": "FINISHED",
+      "category": "macaroni1",
+      "dataset_type": "VisA",
+      "sample_ratio": "0.001",
+      "metric_keys": [
+        "evaluation_seconds",
+        "image_auroc",
+        "image_average_precision",
+        "image_f1",
+        "image_false_negative_rate",
+        "image_false_positive_rate",
+        "image_precision",
+        "image_recall",
+        "image_threshold",
+        "inference_sample_count",
+        "inference_seconds_per_image",
+        "missing_mask_count",
+        "pixel_auroc",
+        "pixel_average_precision",
+        "pixel_f1",
+        "pixel_false_negative_rate",
+        "pixel_false_positive_rate",
+        "pixel_precision",
+        "pixel_recall",
+        "pixel_threshold",
+        "test_image_count"
+      ],
+      "artifact_paths": [
+        "evaluation.json",
+        "model.npz"
+      ]
+    },
+    {
+      "run_id": "49a39b3ce61f48babacfc045117bb95e",
+      "name": "fryum-evaluation",
+      "status": "FINISHED",
+      "category": "fryum",
+      "dataset_type": "VisA",
+      "sample_ratio": "0.001",
+      "metric_keys": [
+        "evaluation_seconds",
+        "image_auroc",
+        "image_average_precision",
+        "image_f1",
+        "image_false_negative_rate",
+        "image_false_positive_rate",
+        "image_precision",
+        "image_recall",
+        "image_threshold",
+        "inference_sample_count",
+        "inference_seconds_per_image",
+        "missing_mask_count",
+        "pixel_auroc",
+        "pixel_average_precision",
+        "pixel_f1",
+        "pixel_false_negative_rate",
+        "pixel_false_positive_rate",
+        "pixel_precision",
+        "pixel_recall",
+        "pixel_threshold",
+        "test_image_count"
+      ],
+      "artifact_paths": [
+        "evaluation.json",
+        "model.npz"
+      ]
+    },
+    {
+      "run_id": "dcdaa731c4bd42339d42873d7af5f417",
+      "name": "chewinggum-evaluation",
+      "status": "FINISHED",
+      "category": "chewinggum",
+      "dataset_type": "VisA",
+      "sample_ratio": "0.001",
+      "metric_keys": [
+        "evaluation_seconds",
+        "image_auroc",
+        "image_average_precision",
+        "image_f1",
+        "image_false_negative_rate",
+        "image_false_positive_rate",
+        "image_precision",
+        "image_recall",
+        "image_threshold",
+        "inference_sample_count",
+        "inference_seconds_per_image",
+        "missing_mask_count",
+        "pixel_auroc",
+        "pixel_average_precision",
+        "pixel_f1",
+        "pixel_false_negative_rate",
+        "pixel_false_positive_rate",
+        "pixel_precision",
+        "pixel_recall",
+        "pixel_threshold",
+        "test_image_count"
+      ],
+      "artifact_paths": [
+        "evaluation.json",
+        "model.npz"
+      ]
+    },
+    {
+      "run_id": "5d564569b4284c0cb167a3bca4588840",
+      "name": "cashew-evaluation",
+      "status": "FINISHED",
+      "category": "cashew",
+      "dataset_type": "VisA",
+      "sample_ratio": "0.001",
+      "metric_keys": [
+        "evaluation_seconds",
+        "image_auroc",
+        "image_average_precision",
+        "image_f1",
+        "image_false_negative_rate",
+        "image_false_positive_rate",
+        "image_precision",
+        "image_recall",
+        "image_threshold",
+        "inference_sample_count",
+        "inference_seconds_per_image",
+        "missing_mask_count",
+        "pixel_auroc",
+        "pixel_average_precision",
+        "pixel_f1",
+        "pixel_false_negative_rate",
+        "pixel_false_positive_rate",
+        "pixel_precision",
+        "pixel_recall",
+        "pixel_threshold",
+        "test_image_count"
+      ],
+      "artifact_paths": [
+        "evaluation.json",
+        "model.npz"
+      ]
+    },
+    {
+      "run_id": "a17f0f1b848f46269517d34fe3885ea8",
+      "name": "capsules-evaluation",
+      "status": "FINISHED",
+      "category": "capsules",
+      "dataset_type": "VisA",
+      "sample_ratio": "0.001",
+      "metric_keys": [
+        "evaluation_seconds",
+        "image_auroc",
+        "image_average_precision",
+        "image_f1",
+        "image_false_negative_rate",
+        "image_false_positive_rate",
+        "image_precision",
+        "image_recall",
+        "image_threshold",
+        "inference_sample_count",
+        "inference_seconds_per_image",
+        "missing_mask_count",
+        "pixel_auroc",
+        "pixel_average_precision",
+        "pixel_f1",
+        "pixel_false_negative_rate",
+        "pixel_false_positive_rate",
+        "pixel_precision",
+        "pixel_recall",
+        "pixel_threshold",
+        "test_image_count"
+      ],
+      "artifact_paths": [
+        "evaluation.json",
+        "model.npz"
+      ]
+    },
+    {
+      "run_id": "b5b53e2a968542e3a3ca5dbe394be872",
+      "name": "candle-evaluation",
+      "status": "FINISHED",
+      "category": "candle",
+      "dataset_type": "VisA",
+      "sample_ratio": "0.001",
+      "metric_keys": [
+        "evaluation_seconds",
+        "image_auroc",
+        "image_average_precision",
+        "image_f1",
+        "image_false_negative_rate",
+        "image_false_positive_rate",
+        "image_precision",
+        "image_recall",
+        "image_threshold",
+        "inference_sample_count",
+        "inference_seconds_per_image",
+        "missing_mask_count",
+        "pixel_auroc",
+        "pixel_average_precision",
+        "pixel_f1",
+        "pixel_false_negative_rate",
+        "pixel_false_positive_rate",
+        "pixel_precision",
+        "pixel_recall",
+        "pixel_threshold",
+        "test_image_count"
+      ],
+      "artifact_paths": [
+        "evaluation.json",
+        "model.npz"
+      ]
+    },
+    {
+      "run_id": "c03a700fe2af4d938216c54187d3b16c",
+      "name": "pipe_fryum-calibration",
+      "status": "FINISHED",
+      "category": "pipe_fryum",
+      "dataset_type": "VisA",
+      "sample_ratio": "0.001",
+      "metric_keys": [
+        "calibration_seconds",
+        "image_threshold",
+        "pixel_threshold"
+      ],
+      "artifact_paths": [
+        "model.metadata.json",
+        "model.npz"
+      ]
+    },
+    {
+      "run_id": "f124730dc1884c50b2d3b7554712efec",
+      "name": "pcb4-calibration",
+      "status": "FINISHED",
+      "category": "pcb4",
+      "dataset_type": "VisA",
+      "sample_ratio": "0.001",
+      "metric_keys": [
+        "calibration_seconds",
+        "image_threshold",
+        "pixel_threshold"
+      ],
+      "artifact_paths": [
+        "model.metadata.json",
+        "model.npz"
+      ]
+    },
+    {
+      "run_id": "0b9b7aa08cff4611803abd6b03293cd4",
+      "name": "pcb3-calibration",
+      "status": "FINISHED",
+      "category": "pcb3",
+      "dataset_type": "VisA",
+      "sample_ratio": "0.001",
+      "metric_keys": [
+        "calibration_seconds",
+        "image_threshold",
+        "pixel_threshold"
+      ],
+      "artifact_paths": [
+        "model.metadata.json",
+        "model.npz"
+      ]
+    },
+    {
+      "run_id": "544004f29e004935972b8c9cf4561204",
+      "name": "pcb2-calibration",
+      "status": "FINISHED",
+      "category": "pcb2",
+      "dataset_type": "VisA",
+      "sample_ratio": "0.001",
+      "metric_keys": [
+        "calibration_seconds",
+        "image_threshold",
+        "pixel_threshold"
+      ],
+      "artifact_paths": [
+        "model.metadata.json",
+        "model.npz"
+      ]
+    },
+    {
+      "run_id": "cc76b78604f54c55b2595b35cda41e32",
+      "name": "pcb1-calibration",
+      "status": "FINISHED",
+      "category": "pcb1",
+      "dataset_type": "VisA",
+      "sample_ratio": "0.001",
+      "metric_keys": [
+        "calibration_seconds",
+        "image_threshold",
+        "pixel_threshold"
+      ],
+      "artifact_paths": [
+        "model.metadata.json",
+        "model.npz"
+      ]
+    },
+    {
+      "run_id": "bc8b3b8939de4539a7325d8eb7c13357",
+      "name": "macaroni2-calibration",
+      "status": "FINISHED",
+      "category": "macaroni2",
+      "dataset_type": "VisA",
+      "sample_ratio": "0.001",
+      "metric_keys": [
+        "calibration_seconds",
+        "image_threshold",
+        "pixel_threshold"
+      ],
+      "artifact_paths": [
+        "model.metadata.json",
+        "model.npz"
+      ]
+    },
+    {
+      "run_id": "c03faaee15c940e9ac23cc2be24c2632",
+      "name": "macaroni1-calibration",
+      "status": "FINISHED",
+      "category": "macaroni1",
+      "dataset_type": "VisA",
+      "sample_ratio": "0.001",
+      "metric_keys": [
+        "calibration_seconds",
+        "image_threshold",
+        "pixel_threshold"
+      ],
+      "artifact_paths": [
+        "model.metadata.json",
+        "model.npz"
+      ]
+    },
+    {
+      "run_id": "2bdeef8da15e4fcda0b3b606f086c7d0",
+      "name": "fryum-calibration",
+      "status": "FINISHED",
+      "category": "fryum",
+      "dataset_type": "VisA",
+      "sample_ratio": "0.001",
+      "metric_keys": [
+        "calibration_seconds",
+        "image_threshold",
+        "pixel_threshold"
+      ],
+      "artifact_paths": [
+        "model.metadata.json",
+        "model.npz"
+      ]
+    },
+    {
+      "run_id": "6dffd8b5f5c74a3ba40641db0edef810",
+      "name": "chewinggum-calibration",
+      "status": "FINISHED",
+      "category": "chewinggum",
+      "dataset_type": "VisA",
+      "sample_ratio": "0.001",
+      "metric_keys": [
+        "calibration_seconds",
+        "image_threshold",
+        "pixel_threshold"
+      ],
+      "artifact_paths": [
+        "model.metadata.json",
+        "model.npz"
+      ]
+    },
+    {
+      "run_id": "f600f92eca964426adb999a246015dc8",
+      "name": "cashew-calibration",
+      "status": "FINISHED",
+      "category": "cashew",
+      "dataset_type": "VisA",
+      "sample_ratio": "0.001",
+      "metric_keys": [
+        "calibration_seconds",
+        "image_threshold",
+        "pixel_threshold"
+      ],
+      "artifact_paths": [
+        "model.metadata.json",
+        "model.npz"
+      ]
+    },
+    {
+      "run_id": "666a0ed79aae41c3820fa625c17c22ed",
+      "name": "capsules-calibration",
+      "status": "FINISHED",
+      "category": "capsules",
+      "dataset_type": "VisA",
+      "sample_ratio": "0.001",
+      "metric_keys": [
+        "calibration_seconds",
+        "image_threshold",
+        "pixel_threshold"
+      ],
+      "artifact_paths": [
+        "model.metadata.json",
+        "model.npz"
+      ]
+    },
+    {
+      "run_id": "d73ae11e3b0943438289598628afb504",
+      "name": "candle-calibration",
+      "status": "FINISHED",
+      "category": "candle",
+      "dataset_type": "VisA",
+      "sample_ratio": "0.001",
+      "metric_keys": [
+        "calibration_seconds",
+        "image_threshold",
+        "pixel_threshold"
+      ],
+      "artifact_paths": [
+        "model.metadata.json",
+        "model.npz"
+      ]
+    },
+    {
+      "run_id": "a421fb945658440398d55c22b67e1c49",
+      "name": "pipe_fryum-train",
+      "status": "FINISHED",
+      "category": "pipe_fryum",
+      "dataset_type": "VisA",
+      "sample_ratio": "0.001",
+      "metric_keys": [
+        "memory_bank_size",
+        "training_seconds"
+      ],
+      "artifact_paths": [
+        "model.metadata.json",
+        "model.npz"
+      ]
+    },
+    {
+      "run_id": "dee393a884eb47728848dd785fd6362c",
+      "name": "pcb4-train",
+      "status": "FINISHED",
+      "category": "pcb4",
+      "dataset_type": "VisA",
+      "sample_ratio": "0.001",
+      "metric_keys": [
+        "memory_bank_size",
+        "training_seconds"
+      ],
+      "artifact_paths": [
+        "model.metadata.json",
+        "model.npz"
+      ]
+    },
+    {
+      "run_id": "4513a851cfdb4a4ca51143e816c1b9e1",
+      "name": "pcb3-train",
+      "status": "FINISHED",
+      "category": "pcb3",
+      "dataset_type": "VisA",
+      "sample_ratio": "0.001",
+      "metric_keys": [
+        "memory_bank_size",
+        "training_seconds"
+      ],
+      "artifact_paths": [
+        "model.metadata.json",
+        "model.npz"
+      ]
+    },
+    {
+      "run_id": "5a9b833841f34628b7cdf8ce403d95be",
+      "name": "pcb2-train",
+      "status": "FINISHED",
+      "category": "pcb2",
+      "dataset_type": "VisA",
+      "sample_ratio": "0.001",
+      "metric_keys": [
+        "memory_bank_size",
+        "training_seconds"
+      ],
+      "artifact_paths": [
+        "model.metadata.json",
+        "model.npz"
+      ]
+    },
+    {
+      "run_id": "4d0ae22f188b45d2b5119e2f61d5ef6d",
+      "name": "pcb1-train",
+      "status": "FINISHED",
+      "category": "pcb1",
+      "dataset_type": "VisA",
+      "sample_ratio": "0.001",
+      "metric_keys": [
+        "memory_bank_size",
+        "training_seconds"
+      ],
+      "artifact_paths": [
+        "model.metadata.json",
+        "model.npz"
+      ]
+    },
+    {
+      "run_id": "e6329ef37b45433fbc539c01358273e5",
+      "name": "macaroni2-train",
+      "status": "FINISHED",
+      "category": "macaroni2",
+      "dataset_type": "VisA",
+      "sample_ratio": "0.001",
+      "metric_keys": [
+        "memory_bank_size",
+        "training_seconds"
+      ],
+      "artifact_paths": [
+        "model.metadata.json",
+        "model.npz"
+      ]
+    },
+    {
+      "run_id": "af6f1b5ba89b4a82adb89f44918e6bcd",
+      "name": "macaroni1-train",
+      "status": "FINISHED",
+      "category": "macaroni1",
+      "dataset_type": "VisA",
+      "sample_ratio": "0.001",
+      "metric_keys": [
+        "memory_bank_size",
+        "training_seconds"
+      ],
+      "artifact_paths": [
+        "model.metadata.json",
+        "model.npz"
+      ]
+    },
+    {
+      "run_id": "3d179530c45047d592e6dd9bb67167f4",
+      "name": "fryum-train",
+      "status": "FINISHED",
+      "category": "fryum",
+      "dataset_type": "VisA",
+      "sample_ratio": "0.001",
+      "metric_keys": [
+        "memory_bank_size",
+        "training_seconds"
+      ],
+      "artifact_paths": [
+        "model.metadata.json",
+        "model.npz"
+      ]
+    },
+    {
+      "run_id": "48762640f5cc47c4aef7d006413645ef",
+      "name": "chewinggum-train",
+      "status": "FINISHED",
+      "category": "chewinggum",
+      "dataset_type": "VisA",
+      "sample_ratio": "0.001",
+      "metric_keys": [
+        "memory_bank_size",
+        "training_seconds"
+      ],
+      "artifact_paths": [
+        "model.metadata.json",
+        "model.npz"
+      ]
+    },
+    {
+      "run_id": "e589a11c48c04e928e3d8a4927224bf0",
+      "name": "cashew-train",
+      "status": "FINISHED",
+      "category": "cashew",
+      "dataset_type": "VisA",
+      "sample_ratio": "0.001",
+      "metric_keys": [
+        "memory_bank_size",
+        "training_seconds"
+      ],
+      "artifact_paths": [
+        "model.metadata.json",
+        "model.npz"
+      ]
+    },
+    {
+      "run_id": "8e73c46b69d8438bb22b440eede58f69",
+      "name": "capsules-train",
+      "status": "FINISHED",
+      "category": "capsules",
+      "dataset_type": "VisA",
+      "sample_ratio": "0.001",
+      "metric_keys": [
+        "memory_bank_size",
+        "training_seconds"
+      ],
+      "artifact_paths": [
+        "model.metadata.json",
+        "model.npz"
+      ]
+    },
+    {
+      "run_id": "69f1d0a2d19a459fa990ed476af6ecd2",
+      "name": "candle-train",
+      "status": "FINISHED",
+      "category": "candle",
+      "dataset_type": "VisA",
+      "sample_ratio": "0.001",
+      "metric_keys": [
+        "memory_bank_size",
+        "training_seconds"
+      ],
+      "artifact_paths": [
+        "model.metadata.json",
+        "model.npz"
+      ]
+    },
+    {
+      "run_id": "9a1ae7fa74344dedac776f2b2a520023",
+      "name": "candle-benchmark",
+      "status": "FINISHED",
+      "category": "candle",
+      "dataset_type": "VisA",
+      "sample_ratio": null,
+      "metric_keys": [
+        "backbone_feature_extraction_mean_ms",
+        "backbone_feature_extraction_median_ms",
+        "backbone_feature_extraction_p90_ms",
+        "backbone_feature_extraction_p95_ms",
+        "cpu_peak_working_set_bytes",
+        "end_to_end_prediction_mean_ms",
+        "end_to_end_prediction_median_ms",
+        "end_to_end_prediction_p90_ms",
+        "end_to_end_prediction_p95_ms",
+        "heatmap_rendering_mean_ms",
+        "heatmap_rendering_median_ms",
+        "heatmap_rendering_p90_ms",
+        "heatmap_rendering_p95_ms",
+        "map_upsampling_mean_ms",
+        "map_upsampling_median_ms",
+        "map_upsampling_p90_ms",
+        "map_upsampling_p95_ms",
+        "model_load_seconds",
+        "nearest_neighbor_search_mean_ms",
+        "nearest_neighbor_search_median_ms",
+        "nearest_neighbor_search_p90_ms",
+        "nearest_neighbor_search_p95_ms",
+        "preprocessing_mean_ms",
+        "preprocessing_median_ms",
+        "preprocessing_p90_ms",
+        "preprocessing_p95_ms",
+        "throughput_images_per_second"
+      ],
+      "artifact_paths": [
+        "benchmark_results.json"
+      ]
+    },
+    {
+      "run_id": "c7b6f65d26c74ed6b78b37f0bac4a979",
+      "name": "candle-benchmark",
+      "status": "FINISHED",
+      "category": "candle",
+      "dataset_type": "VisA",
+      "sample_ratio": null,
+      "metric_keys": [
+        "backbone_feature_extraction_mean_ms",
+        "backbone_feature_extraction_median_ms",
+        "backbone_feature_extraction_p90_ms",
+        "backbone_feature_extraction_p95_ms",
+        "end_to_end_prediction_mean_ms",
+        "end_to_end_prediction_median_ms",
+        "end_to_end_prediction_p90_ms",
+        "end_to_end_prediction_p95_ms",
+        "heatmap_rendering_mean_ms",
+        "heatmap_rendering_median_ms",
+        "heatmap_rendering_p90_ms",
+        "heatmap_rendering_p95_ms",
+        "map_upsampling_mean_ms",
+        "map_upsampling_median_ms",
+        "map_upsampling_p90_ms",
+        "map_upsampling_p95_ms",
+        "model_load_seconds",
+        "nearest_neighbor_search_mean_ms",
+        "nearest_neighbor_search_median_ms",
+        "nearest_neighbor_search_p90_ms",
+        "nearest_neighbor_search_p95_ms",
+        "preprocessing_mean_ms",
+        "preprocessing_median_ms",
+        "preprocessing_p90_ms",
+        "preprocessing_p95_ms",
+        "throughput_images_per_second"
+      ],
+      "artifact_paths": [
+        "benchmark_results.json"
+      ]
+    },
+    {
+      "run_id": "a0f457ccab1844189377eb9436b29cb9",
+      "name": "candle-evaluation",
+      "status": "FINISHED",
+      "category": "candle",
+      "dataset_type": "VisA",
+      "sample_ratio": "0.01",
+      "metric_keys": [
+        "evaluation_seconds",
+        "image_auroc",
+        "image_average_precision",
+        "image_f1",
+        "image_false_negative_rate",
+        "image_false_positive_rate",
+        "image_precision",
+        "image_recall",
+        "image_threshold",
+        "inference_sample_count",
+        "inference_seconds_per_image",
+        "missing_mask_count",
+        "pixel_auroc",
+        "pixel_average_precision",
+        "pixel_f1",
+        "pixel_false_negative_rate",
+        "pixel_false_positive_rate",
+        "pixel_precision",
+        "pixel_recall",
+        "pixel_threshold",
+        "test_image_count"
+      ],
+      "artifact_paths": [
+        "evaluation.json",
+        "model.npz"
+      ]
+    },
+    {
+      "run_id": "54abe952b3174fe0bfafe4a327994003",
+      "name": "candle-calibration",
+      "status": "FINISHED",
+      "category": "candle",
+      "dataset_type": "VisA",
+      "sample_ratio": "0.01",
+      "metric_keys": [
+        "calibration_seconds",
+        "image_threshold",
+        "pixel_threshold"
+      ],
+      "artifact_paths": [
+        "model.metadata.json",
+        "model.npz"
+      ]
+    },
+    {
+      "run_id": "af1de0b7a51c4245a44fc81cc20b77d0",
+      "name": "candle-train",
+      "status": "FINISHED",
+      "category": "candle",
+      "dataset_type": "VisA",
+      "sample_ratio": "0.001",
+      "metric_keys": [
+        "memory_bank_size",
+        "training_seconds"
+      ],
+      "artifact_paths": [
+        "model.metadata.json",
+        "model.npz"
+      ]
+    }
+  ],
+  "dataset_root": "G:\\Projects\\VisionGaurd\\data\\visa_prepared\\1cls",
+  "dataset_present": true,
+  "dataset_identity": "https://github.com/amazon-science/spot-diff",
+  "archive_sha256": "2eb8690c803ab37de0324772964100169ec8ba1fa3f7e94291c9ca673f40f362",
+  "trained_model_artifact": "G:\\Projects\\VisionGaurd\\artifacts\\model.npz",
+  "trained_model_artifact_present": true,
+  "cached_torchvision_weights": "C:\\Users\\Hari\\.cache\\torch\\hub\\checkpoints\\wide_resnet50_2-9ba9bcbe.pth",
+  "cached_torchvision_weights_present": true,
+  "cached_torchvision_weights_bytes": 275905729
+}

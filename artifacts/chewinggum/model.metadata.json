@@ -1,0 +1,17 @@
+{
+  "dataset_root": "G:\\Projects\\VisionGaurd\\data\\visa_prepared\\1cls",
+  "dataset_type": "VisA",
+  "category": "chewinggum",
+  "calibration_split": "train/good (normal images only)",
+  "image_threshold_quantile": 0.99,
+  "image_threshold": 38.97890106201172,
+  "pixel_threshold_quantile": 0.995,
+  "pixel_threshold": 31.40152359008789,
+  "normal_images_used": 453,
+  "random_seed": 42,
+  "image_size": 224,
+  "memory_bank_size": 356,
+  "torch_version": "2.5.1+cpu",
+  "torchvision_version": "0.20.1+cpu",
+  "artifact_sha256": "03f9f7ff347b5747c760c5e225fcc01e9a1a5a324cc0f3442777aa551e701352"
+}

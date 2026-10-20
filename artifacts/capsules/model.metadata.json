@@ -1,0 +1,17 @@
+{
+  "dataset_root": "G:\\Projects\\VisionGaurd\\data\\visa_prepared\\1cls",
+  "dataset_type": "VisA",
+  "category": "capsules",
+  "calibration_split": "train/good (normal images only)",
+  "image_threshold_quantile": 0.99,
+  "image_threshold": 46.34214862823487,
+  "pixel_threshold_quantile": 0.995,
+  "pixel_threshold": 39.96827697753906,
+  "normal_images_used": 542,
+  "random_seed": 42,
+  "image_size": 224,
+  "memory_bank_size": 425,
+  "torch_version": "2.5.1+cpu",
+  "torchvision_version": "0.20.1+cpu",
+  "artifact_sha256": "19e3c53fb130097ef7f8be459ba850aea1b7bbad97cebdab5e22dc84ab108eb8"
+}

@@ -1,0 +1,77 @@
+{
+  "status": "measured",
+  "dataset": "data\\visa_prepared\\1cls",
+  "dataset_type": "VisA",
+  "category": "candle",
+  "image_count": 100,
+  "warmup_count": 20,
+  "model_path": "artifacts\\model.npz",
+  "device": "cpu",
+  "model_load_seconds": 1.415029299998423,
+  "model_artifact_bytes": 258677895,
+  "memory_bank_bytes": 4337664,
+  "cpu_peak_working_set_bytes": 821108736,
+  "cuda_peak_allocated_bytes": null,
+  "batch_size": 1,
+  "input_dimensions": [
+    224,
+    224
+  ],
+  "cpu_model": "Intel(R) Core(TM) Ultra 7 270K Plus",
+  "throughput_images_per_second": 14.664573543411917,
+  "timings": {
+    "preprocessing": {
+      "mean_ms": 4.591980000259355,
+      "median_ms": 4.563649999909103,
+      "p90_ms": 4.867700005706865,
+      "p95_ms": 4.994694990455173,
+      "min_ms": 4.05890001275111,
+      "max_ms": 6.110199989052489
+    },
+    "backbone_feature_extraction": {
+      "mean_ms": 43.76728799936245,
+      "median_ms": 43.4275500010699,
+      "p90_ms": 47.47577999951318,
+      "p95_ms": 47.935225006222026,
+      "min_ms": 38.36829999636393,
+      "max_ms": 51.21779999171849
+    },
+    "nearest_neighbor_search": {
+      "mean_ms": 11.238287999440217,
+      "median_ms": 11.210550008399878,
+      "p90_ms": 12.157900002785027,
+      "p95_ms": 12.78911000554217,
+      "min_ms": 9.60079999640584,
+      "max_ms": 14.732100011315197
+    },
+    "map_upsampling": {
+      "mean_ms": 1.693114000663627,
+      "median_ms": 1.6439999963040464,
+      "p90_ms": 1.9959700061008336,
+      "p95_ms": 2.1126549996552058,
+      "min_ms": 1.3863999920431525,
+      "max_ms": 2.722599994740449
+    },
+    "heatmap_rendering": {
+      "mean_ms": 12.651442000642419,
+      "median_ms": 12.994550001167227,
+      "p90_ms": 13.494490005541593,
+      "p95_ms": 13.571269995736657,
+      "min_ms": 10.104999993927777,
+      "max_ms": 14.998599988757633
+    },
+    "end_to_end_prediction": {
+      "mean_ms": 68.19154999902821,
+      "median_ms": 67.58275000174763,
+      "p90_ms": 71.71548000478651,
+      "p95_ms": 73.54524500406114,
+      "min_ms": 63.7472000089474,
+      "max_ms": 85.30170000449289
+    }
+  },
+  "software": {
+    "python": "3.12.13",
+    "torch": "2.5.1+cpu",
+    "numpy": "1.26.4"
+  }
+}

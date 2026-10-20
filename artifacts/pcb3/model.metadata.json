@@ -1,0 +1,17 @@
+{
+  "dataset_root": "G:\\Projects\\VisionGaurd\\data\\visa_prepared\\1cls",
+  "dataset_type": "VisA",
+  "category": "pcb3",
+  "calibration_split": "train/good (normal images only)",
+  "image_threshold_quantile": 0.99,
+  "image_threshold": 41.92355026245117,
+  "pixel_threshold_quantile": 0.995,
+  "pixel_threshold": 31.393758783340218,
+  "normal_images_used": 905,
+  "random_seed": 42,
+  "image_size": 224,
+  "memory_bank_size": 710,
+  "torch_version": "2.5.1+cpu",
+  "torchvision_version": "0.20.1+cpu",
+  "artifact_sha256": "457fc2ff366d1e6e3c6321c7eb7c156025266398b97e3ced77adcee070f556ec"
+}

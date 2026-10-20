@@ -1,0 +1,33 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.pyo
+*.egg-info/
+.artifacts/
+*.onnx
+*.png
+*.jpg
+*.jpeg
+mlruns/
+artifacts/model.npz
+artifacts/heatmaps/
+# Python environment
+.venv/
+
+# VisA dataset
+data/downloads/
+data/visa_raw/
+data/visa_prepared/
+
+# Experiment tracking and generated experiments
+mlruns/
+reports/experiments/
+artifacts/experiments/
+
+# Local environment and temporary Git files
+.env
+.env.*
+!.env.example
+# Large trained model files
+artifacts/*/model.npz

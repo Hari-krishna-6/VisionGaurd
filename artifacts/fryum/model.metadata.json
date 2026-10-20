@@ -1,0 +1,17 @@
+{
+  "dataset_root": "G:\\Projects\\VisionGaurd\\data\\visa_prepared\\1cls",
+  "dataset_type": "VisA",
+  "category": "fryum",
+  "calibration_split": "train/good (normal images only)",
+  "image_threshold_quantile": 0.99,
+  "image_threshold": 38.89331748962401,
+  "pixel_threshold_quantile": 0.995,
+  "pixel_threshold": 31.782398223876953,
+  "normal_images_used": 450,
+  "random_seed": 42,
+  "image_size": 224,
+  "memory_bank_size": 353,
+  "torch_version": "2.5.1+cpu",
+  "torchvision_version": "0.20.1+cpu",
+  "artifact_sha256": "4c746c3f2e6f6529992f6bf17c115087cda64853797c2590bc33c45a88ed8159"
+}

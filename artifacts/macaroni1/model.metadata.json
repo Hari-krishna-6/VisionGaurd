@@ -1,0 +1,17 @@
+{
+  "dataset_root": "G:\\Projects\\VisionGaurd\\data\\visa_prepared\\1cls",
+  "dataset_type": "VisA",
+  "category": "macaroni1",
+  "calibration_split": "train/good (normal images only)",
+  "image_threshold_quantile": 0.99,
+  "image_threshold": 37.865646820068356,
+  "pixel_threshold_quantile": 0.995,
+  "pixel_threshold": 26.956436157226562,
+  "normal_images_used": 900,
+  "random_seed": 42,
+  "image_size": 224,
+  "memory_bank_size": 706,
+  "torch_version": "2.5.1+cpu",
+  "torchvision_version": "0.20.1+cpu",
+  "artifact_sha256": "cec85e9556fd11adb9591aa4238a72e23555b424cf218d9d67c8eaf40ff4157f"
+}

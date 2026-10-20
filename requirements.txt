@@ -1,0 +1,15 @@
+torch==2.5.1
+torchvision==0.20.1
+fastapi==0.115.14
+uvicorn==0.34.0
+pydantic==2.11.7
+pytest==8.4.2
+Pillow==10.4.0
+numpy==1.26.4
+opencv-python==4.10.0.84
+scikit-learn==1.5.2
+mlflow==2.15.1
+requests==2.32.2
+httpx==0.28.1
+python-multipart==0.0.20
+setuptools==80.9.0

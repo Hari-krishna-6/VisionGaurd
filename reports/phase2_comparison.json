@@ -1,0 +1,299 @@
+{
+  "experiment_id": "patchcore_topk_mean_1pct_v1",
+  "protocol": "Fixed top-1% mean aggregation; candidate reuses the baseline fitted memory bank. Candidate image threshold is recalibrated on normal train/good images at the baseline 99th percentile. Pixel map and pixel threshold are unchanged. Test split used only for final measurement; no test-based selection.",
+  "categories": [
+    {
+      "category": "candle",
+      "baseline": {
+        "image_auroc": 0.8718999999999999,
+        "image_average_precision": 0.8170888315495455,
+        "image_precision": 0.75,
+        "image_recall": 0.03,
+        "image_f1": 0.057692307692307696,
+        "pixel_auroc": 0.9672104181324164,
+        "pixel_average_precision": 0.14886078120733756,
+        "pixel_precision": 0.0720473761302041,
+        "pixel_recall": 0.7442060149374153,
+        "pixel_f1": 0.1313760929223863,
+        "inference_seconds_per_image": 0.07386168700024427
+      },
+      "candidate": {
+        "image_auroc": 0.9314,
+        "image_average_precision": 0.9311462181790467,
+        "image_precision": 1.0,
+        "image_recall": 0.17,
+        "image_f1": 0.2905982905982906,
+        "pixel_auroc": 0.9672104181324164,
+        "pixel_average_precision": 0.14886078120733756,
+        "pixel_precision": 0.0720473761302041,
+        "pixel_recall": 0.7442060149374153,
+        "pixel_f1": 0.1313760929223863,
+        "inference_seconds_per_image": 0.08162722700049926
+      },
+      "delta_candidate_minus_baseline": {
+        "image_auroc": 0.05950000000000011,
+        "image_average_precision": 0.11405738662950127,
+        "image_precision": 0.25,
+        "image_recall": 0.14,
+        "image_f1": 0.2329059829059829,
+        "pixel_auroc": 0.0,
+        "pixel_average_precision": 0.0,
+        "pixel_precision": 0.0,
+        "pixel_recall": 0.0,
+        "pixel_f1": 0.0,
+        "inference_seconds_per_image": 0.007765540000254992
+      },
+      "baseline_threshold": 46.88003650665283,
+      "candidate_threshold": 34.08117569923401,
+      "baseline_confusion_matrix": [
+        [
+          99,
+          1
+        ],
+        [
+          97,
+          3
+        ]
+      ],
+      "candidate_confusion_matrix": [
+        [
+          100,
+          0
+        ],
+        [
+          83,
+          17
+        ]
+      ]
+    },
+    {
+      "category": "macaroni1",
+      "baseline": {
+        "image_auroc": 0.9184,
+        "image_average_precision": 0.9152829869757733,
+        "image_precision": 0.9111111111111111,
+        "image_recall": 0.41,
+        "image_f1": 0.5655172413793104,
+        "pixel_auroc": 0.9728629068457302,
+        "pixel_average_precision": 0.08281085781166449,
+        "pixel_precision": 0.02357040444824533,
+        "pixel_recall": 0.7876906378203359,
+        "pixel_f1": 0.045771178316670616,
+        "inference_seconds_per_image": 0.07087462349969428
+      },
+      "candidate": {
+        "image_auroc": 0.9335,
+        "image_average_precision": 0.9266528651283111,
+        "image_precision": 0.9473684210526315,
+        "image_recall": 0.36,
+        "image_f1": 0.5217391304347826,
+        "pixel_auroc": 0.9728629068457302,
+        "pixel_average_precision": 0.08281085781166449,
+        "pixel_precision": 0.02357040444824533,
+        "pixel_recall": 0.7876906378203359,
+        "pixel_f1": 0.045771178316670616,
+        "inference_seconds_per_image": 0.07870249099993089
+      },
+      "delta_candidate_minus_baseline": {
+        "image_auroc": 0.015100000000000002,
+        "image_average_precision": 0.011369878152537871,
+        "image_precision": 0.03625730994152043,
+        "image_recall": -0.04999999999999999,
+        "image_f1": -0.04377811094452777,
+        "pixel_auroc": 0.0,
+        "pixel_average_precision": 0.0,
+        "pixel_precision": 0.0,
+        "pixel_recall": 0.0,
+        "pixel_f1": 0.0,
+        "inference_seconds_per_image": 0.007827867500236604
+      },
+      "baseline_threshold": 37.865646820068356,
+      "candidate_threshold": 31.990506806373595,
+      "baseline_confusion_matrix": [
+        [
+          96,
+          4
+        ],
+        [
+          59,
+          41
+        ]
+      ],
+      "candidate_confusion_matrix": [
+        [
+          98,
+          2
+        ],
+        [
+          64,
+          36
+        ]
+      ]
+    },
+    {
+      "category": "macaroni2",
+      "baseline": {
+        "image_auroc": 0.8168,
+        "image_average_precision": 0.8342045146286579,
+        "image_precision": 0.8974358974358975,
+        "image_recall": 0.35,
+        "image_f1": 0.5035971223021583,
+        "pixel_auroc": 0.949253406095515,
+        "pixel_average_precision": 0.0426735022859332,
+        "pixel_precision": 0.021124671130132243,
+        "pixel_recall": 0.5778917483286016,
+        "pixel_f1": 0.0407593940189142,
+        "inference_seconds_per_image": 0.07459040500005358
+      },
+      "candidate": {
+        "image_auroc": 0.7663999999999999,
+        "image_average_precision": 0.7457545567855741,
+        "image_precision": 0.8,
+        "image_recall": 0.16,
+        "image_f1": 0.26666666666666666,
+        "pixel_auroc": 0.949253406095515,
+        "pixel_average_precision": 0.0426735022859332,
+        "pixel_precision": 0.021124671130132243,
+        "pixel_recall": 0.5778917483286016,
+        "pixel_f1": 0.0407593940189142,
+        "inference_seconds_per_image": 0.07647069200029363
+      },
+      "delta_candidate_minus_baseline": {
+        "image_auroc": -0.05040000000000011,
+        "image_average_precision": -0.08844995784308374,
+        "image_precision": -0.09743589743589742,
+        "image_recall": -0.18999999999999997,
+        "image_f1": -0.2369304556354916,
+        "pixel_auroc": 0.0,
+        "pixel_average_precision": 0.0,
+        "pixel_precision": 0.0,
+        "pixel_recall": 0.0,
+        "pixel_f1": 0.0,
+        "inference_seconds_per_image": 0.0018802870002400524
+      },
+      "baseline_threshold": 40.462053298950195,
+      "candidate_threshold": 36.57310198307037,
+      "baseline_confusion_matrix": [
+        [
+          96,
+          4
+        ],
+        [
+          65,
+          35
+        ]
+      ],
+      "candidate_confusion_matrix": [
+        [
+          96,
+          4
+        ],
+        [
+          84,
+          16
+        ]
+      ]
+    }
+  ],
+  "benchmark": {
+    "baseline": {
+      "image_score_aggregation": "max",
+      "model_load_seconds": 2.0164347999962047,
+      "end_to_end_prediction": {
+        "mean_ms": 62.15208099994925,
+        "median_ms": 62.16425000457093,
+        "p90_ms": 65.63416999997571,
+        "p95_ms": 66.34077500420972,
+        "min_ms": 56.74379999982193,
+        "max_ms": 68.5146000032546
+      },
+      "throughput_images_per_second": 16.089565850591818,
+      "image_count": 100,
+      "warmup_count": 20,
+      "device": "cpu",
+      "cpu_model": "Intel(R) Core(TM) Ultra 7 270K Plus",
+      "software": {
+        "python": "3.12.13",
+        "torch": "2.5.1+cpu",
+        "numpy": "1.26.4"
+      },
+      "input_dimensions": [
+        224,
+        224
+      ],
+      "cpu_peak_working_set_bytes": 820477952,
+      "model_artifact_bytes": 258677895,
+      "memory_bank_bytes": 4337664
+    },
+    "candidate": {
+      "image_score_aggregation": "topk_mean",
+      "model_load_seconds": 2.0203620999964187,
+      "end_to_end_prediction": {
+        "mean_ms": 63.92206999968039,
+        "median_ms": 64.22290000045905,
+        "p90_ms": 70.05609000480035,
+        "p95_ms": 70.94105498763383,
+        "min_ms": 55.941900005564094,
+        "max_ms": 74.55489999847487
+      },
+      "throughput_images_per_second": 15.644049074208642,
+      "image_count": 100,
+      "warmup_count": 20,
+      "device": "cpu",
+      "cpu_model": "Intel(R) Core(TM) Ultra 7 270K Plus",
+      "software": {
+        "python": "3.12.13",
+        "torch": "2.5.1+cpu",
+        "numpy": "1.26.4"
+      },
+      "input_dimensions": [
+        224,
+        224
+      ],
+      "cpu_peak_working_set_bytes": 820277248,
+      "model_artifact_bytes": 258677966,
+      "memory_bank_bytes": 4337664
+    }
+  },
+  "macro_average": {
+    "baseline": {
+      "image_auroc": 0.8690333333333333,
+      "image_average_precision": 0.8555254443846589,
+      "image_precision": 0.8528490028490028,
+      "image_recall": 0.2633333333333333,
+      "image_f1": 0.3756022237912588,
+      "pixel_auroc": 0.9631089103578873,
+      "pixel_average_precision": 0.09144838043497842,
+      "pixel_precision": 0.03891415056952722,
+      "pixel_recall": 0.7032628003621175,
+      "pixel_f1": 0.07263555508599037,
+      "inference_seconds_per_image": 0.07310890516666405
+    },
+    "candidate": {
+      "image_auroc": 0.8771,
+      "image_average_precision": 0.8678512133643107,
+      "image_precision": 0.9157894736842106,
+      "image_recall": 0.22999999999999998,
+      "image_f1": 0.3596680292332466,
+      "pixel_auroc": 0.9631089103578873,
+      "pixel_average_precision": 0.09144838043497842,
+      "pixel_precision": 0.03891415056952722,
+      "pixel_recall": 0.7032628003621175,
+      "pixel_f1": 0.07263555508599037,
+      "inference_seconds_per_image": 0.07893347000024126
+    },
+    "delta_candidate_minus_baseline": {
+      "image_auroc": 0.008066666666666666,
+      "image_average_precision": 0.012325768979651763,
+      "image_precision": 0.06294047083520782,
+      "image_recall": -0.033333333333333326,
+      "image_f1": -0.015934194558012205,
+      "pixel_auroc": 0.0,
+      "pixel_average_precision": 0.0,
+      "pixel_precision": 0.0,
+      "pixel_recall": 0.0,
+      "pixel_f1": 0.0,
+      "inference_seconds_per_image": 0.0058245648335772116
+    }
+  }
+}
